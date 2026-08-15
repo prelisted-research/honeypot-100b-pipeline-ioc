@@ -1,0 +1,25 @@
+{
+  "chain": "avalanche",
+  "chain_id": 43114,
+  "description": "Two consecutive binance customer withdrawals within a 2-minute window that funded the operator's operational wallets. These are the primary on-chain attribution point. Binance itself is not accused of anything \u2014 a customer used their service. Independent verification is a single query against binance's internal payout ledger for the 2025-07-22 13:47-13:49 UTC window.",
+  "events": [
+    {
+      "timestamp_utc": "2025-07-22 13:47:00",
+      "from_address": "0x6d8be5cdf0d7dee1f04e25fd70b001ae3b907824",
+      "from_label": "binance payout wallet (public label on avalanche block explorers: 'Binance 85')",
+      "to_address": "0xce54c175880ff4edaa5d80b2dc66dda0e34a36ac",
+      "to_role": "hardcoded_manager_key_1 (baked into pipeline bytecode)",
+      "amount_avax": 1.996,
+      "tx_hash": "0x887416579723a8edfe907b74a105bb13812b692c9cc1aa4df91273d3771a87a4"
+    },
+    {
+      "timestamp_utc": "2025-07-22 13:49:00",
+      "from_address": "0xaba2d404c5c41da5964453a368aff2604ae80a14",
+      "from_label": "binance payout wallet (public label on avalanche block explorers: 'Binance 110')",
+      "to_address": "0x3eb8d668cacdcbddedc1361342c927c106749a17",
+      "to_role": "campaign_1_deployer",
+      "amount_avax": 97.996,
+      "tx_hash": "0x5100523d9cf05f9d409ad161c9ab8688b440717f1e11b1b3ce9bc44122feecb1"
+    }
+  ]
+}

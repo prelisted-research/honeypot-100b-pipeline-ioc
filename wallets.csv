@@ -1,0 +1,9 @@
+address,chain,role,first_tx_utc,last_tx_utc,notes
+0xce54c175880ff4edaa5d80b2dc66dda0e34a36ac,avalanche,hardcoded_manager_key_1,2025-07-22 13:47:00,2026-08-12,PUSH20 constant in 30/30 sampled campaign_1 + 65/100 sampled campaign_2a contracts; funded by binance customer withdrawal via binance-labeled payout wallet
+0x6b8942200b01b140db3c9053d74216fe3b710f9e,avalanche,hardcoded_manager_key_2 + drain_executor,2026-05-05 10:38:00,2026-08-14,"PUSH20 constant in 35/100 sampled campaign_2a contracts; also primary drain executor (10,054 successful drain swaps via LFJ V2.2 router, all proceeds routed to shared collector wallet)"
+0x3eb8d668cacdcbddedc1361342c927c106749a17,avalanche,campaign_1_deployer,2025-07-22 13:49:00,,"sole deployer of 4,887 campaign_1 contracts; funded by binance customer withdrawal via binance-labeled payout wallet"
+0x318c8345f6e203c86bf2e9c01694e07fbe6a2c92,avalanche,campaign_2a_deployer_1,2026-04-21,,deployed the largest share of campaign_2a exact-fingerprint contracts
+0xad48d7c2641c6659a53b5ef16efea761d879822b,avalanche,campaign_2a_deployer_2,2026-04-21,,deployed the second-largest share of campaign_2a exact-fingerprint contracts
+0xe282b838eac88487a7a33a07eb594c13ce5640ae,avalanche,campaign_2a_deployer_3,2026-05-05,,may-05 deployer burst
+0xeec6d5994b7ed166e5cf7f5444d4bf0aaebce92d,multichain,shared_cross_chain_collector,2026-04-21,ongoing,"receives drained proceeds from avalanche address_b (10,054 swaps) AND from polygon manager (37 of 42 decoded fee-on-transfer swaps route here); the definitive cross-chain identity link for this operator"
+0xbfd4a51c9f4c5b8109bdd462c8a57a5d268be3d0,polygon,hardcoded_manager_and_drainer,2025-07-08,2026-08-12,PUSH20 constant in 10x in all 5 sampled polygon pipeline contracts; single-key architecture on polygon (does both admin and drain roles). polygon activity begins 14 days BEFORE avalanche campaign_1
