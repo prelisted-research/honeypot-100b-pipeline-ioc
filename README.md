@@ -2,7 +2,7 @@
 
 Indicators of compromise (IOCs), reference decompile, and a lightweight detection heuristic for a **live, industrial-scale honeypot operation** documented across the Avalanche and Polygon networks. As of publication the operator is still active — most recent observed blacklist call: **2026-08-12** (Avalanche); most recent observed drain swap: **2026-08-14** (Avalanche).
 
-This package accompanies the forensic report *"Inside a 12,000-contract honeypot operation on Avalanche"*. Every claim in the report is meant to be independently checkable against the files here.
+This package accompanies the forensic report [**"Inside a 12,000-contract honeypot operation on Avalanche"**](https://prelisted.io/blog/inside-a-12000-contract-honeypot-operation.html) ([Russian version](https://prelisted.io/blog/ru/inside-a-12000-contract-honeypot-operation.html)). Every claim in the report is meant to be independently checkable against the files here.
 
 ---
 
