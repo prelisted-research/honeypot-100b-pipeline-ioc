@@ -1,5 +1,7 @@
 # Disclosure
 
+The forensic report this package documents: [**Inside a 12,000-contract honeypot operation on Avalanche**](https://prelisted.io/blog/inside-a-12000-contract-honeypot-operation.html) ([Russian version](https://prelisted.io/blog/ru/inside-a-12000-contract-honeypot-operation.html)).                                                                                                                  
+
 ## Purpose
 
 This package documents an active, industrial-scale honeypot operation for the benefit of the security ecosystem. It is intended for:
